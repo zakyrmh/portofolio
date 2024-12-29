@@ -6,8 +6,6 @@ import Technologies from "./components/Technologies";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
-import data from "./assets/data.csv";
-
 const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-600">
@@ -22,7 +20,6 @@ const App = () => {
         {/* <Experience /> */}
         <Projects />
         <Contact />
-        <iframe src={data}></iframe>
       </div>
     </div>
   );
