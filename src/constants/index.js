@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project3 from "../assets/projects/project-3.png";
 
 export const HERO_CONTENT = `Applied Bachelor of Software Engineering Technology student with a deep understanding of various programming languages such as JavaScript, Python, C, C++, as well as MySQL and MongoDB databases. Experienced in using modern technologies such as Laravel, ReactJS, Node.js, and TailwindCSS. Has a special interest in the field of data analysis and has been learning programming since the 2nd grade of high school.`;
 
