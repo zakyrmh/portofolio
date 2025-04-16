@@ -1,5 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
+import project3 from "../assets/projects/project-3.jpg";
 
 export const HERO_CONTENT = `Applied Bachelor of Software Engineering Technology student with a deep understanding of various programming languages such as JavaScript, Python, C, C++, as well as MySQL and MongoDB databases. Experienced in using modern technologies such as Laravel, ReactJS, Node.js, and TailwindCSS. Has a special interest in the field of data analysis and has been learning programming since the 2nd grade of high school.`;
 
@@ -38,18 +39,18 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "TRPL 24 C",
+    image: project3,
+    description:
+      "Web application for class schedule management, assignments, learning materials and others to support student needs.",
+    technologies: ["NextJS", "TailwindCSS", "Firebase"],
+  },
+  {
     title: "Walletify",
     image: project1,
     description:
       "A financial record-keeping website for recording expenses and income, and financial analysis and other functions.",
     technologies: ["TailwindCSS", "Vite", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "TRPL 24 C",
-    image: project1,
-    description:
-      "Web application for class schedule management, assignments, learning materials and others to support student needs.",
-    technologies: ["NextJS", "TailwindCSS", "Firebase"],
   },
   {
     title: "Hima Aksi Unsika",
