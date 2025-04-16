@@ -45,6 +45,13 @@ export const PROJECTS = [
     technologies: ["TailwindCSS", "Vite", "React", "Node.js", "MongoDB"],
   },
   {
+    title: "TRPL 24 C",
+    image: project1,
+    description:
+      "Web application for class schedule management, assignments, learning materials and others to support student needs.",
+    technologies: ["NextJS", "TailwindCSS", "Firebase"],
+  },
+  {
     title: "Hima Aksi Unsika",
     image: project2,
     description:
